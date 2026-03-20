@@ -16,11 +16,15 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 40px;
+  padding: 10px 5%; /* Adjusted padding for better scaling */
   background: #0a2d57;
   color: white;
-  position: relative;
+  position: sticky; /* Keep it at the top while scrolling */
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
   z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3); /* Adds depth like the screenshot */
 }
 
 /* Logo link */
@@ -37,8 +41,9 @@ header {
 }
 
 .logo-area img {
-  height: 70px;
+  height: 55px; /* Reduced from 70px to match the sleek screenshot look */
   width: auto;
+  display: block;
 }
 
 /* Site name */
@@ -57,20 +62,25 @@ header {
 /* Navigation */
 nav {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  gap: 15px;
+  gap: 20px; /* Increased gap slightly for readability */
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  font-size: 16px;
-  transition: opacity 0.3s;
+  font-size: 14px; /* Standard navbar size */
+  font-weight: 600; /* Makes it look like the semi-bold text in screenshot */
+  text-transform: uppercase; /* Ensures all links are capitalized */
+  transition: color 0.3s ease;
   white-space: nowrap;
+  letter-spacing: 0.5px; /* Sharpens the text appearance */
 }
 
-nav a:hover { opacity: 0.7; }
+nav a:hover {
+  color: #2db4a3; /* Matches the theme color you used for buttons */
+  opacity: 1; /* Keep text bright on hover */
+}
 
 /* Dropdowns */
 .dropdown { position: relative; display: inline-block; }
@@ -274,7 +284,7 @@ nav a:hover { opacity: 0.7; }
 
 .slide img {
     width: 100%;
-    height: 87%;
+    height: 90%;
     object-fit: cover;
 }
 
@@ -282,15 +292,22 @@ nav a:hover { opacity: 0.7; }
     display: block;
 }
 
+.slide {
+    position: relative;
+}
+
 .slide h1 {
     position: absolute;
-    bottom: 96px;
-    left: 80px;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
     color: white;
     font-size: 30px;
     background: rgba(0, 0, 0, 0.5);
     padding: 15px 25px;
     border-radius: 5px;
+    white-space: nowrap;
 }
 
 .slide.active {
