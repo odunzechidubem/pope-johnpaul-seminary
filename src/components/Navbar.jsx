@@ -126,7 +126,9 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* <a href="/pages/blog.html">BLOG</a> */}
+        <a href="https://lectern.site/login" target="_blank" rel="noopener noreferrer">
+  <i class="fas fa-user-circle fa-2x"></i>
+</a>
       </nav>
     </header>
   );
