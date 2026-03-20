@@ -14,7 +14,6 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      <SpecialSection />
       <Welcome />
       
       {/* Centenary Gallery Section */}
@@ -35,6 +34,7 @@ function App() {
 
       <News />
       <HistoryAndEvents />
+      <SpecialSection />
       <Facilities />
       <Publications />
       <Stats />

@@ -6,7 +6,7 @@ const HistoryAndEvents = () => {
     {
       id: 1,
       title: "Centenary Stopover Okpala",
-      subtitle: "--------------------",
+      subtitle: "PJPMS journey",
       image: "/images/road.jpg",
       description: "On the 17th of November, 2023, Mother PJPMS journeyed with her seminarians, formators and Alumni to St. Paul's Seminary, Okpala, Imo State."
     },

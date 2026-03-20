@@ -149,6 +149,14 @@ nav a:hover {
 /* Mobile Styling */
 @media(max-width:900px) {
 
+  /* Site name */
+.site-name {
+  display: none;
+  font-size: 10px;
+  font-weight: bold;
+  color: white; 
+}
+
   .nav-toggle {
     display: block;
   }
@@ -284,7 +292,7 @@ nav a:hover {
 
 .slide img {
     width: 100%;
-    height: 90%;
+    height: 87.5%;
     object-fit: cover;
 }
 
@@ -298,7 +306,7 @@ nav a:hover {
 
 .slide h1 {
     position: absolute;
-    top: 85%;
+    top: 81%;
     left: 50%;
     transform: translate(-50%, -50%);
     
@@ -308,6 +316,46 @@ nav a:hover {
     padding: 15px 25px;
     border-radius: 5px;
     white-space: nowrap;
+}
+
+/* --- MOBILE RESPONSIVENESS FOR HERO SLIDER (CENTERED) --- */
+
+@media (max-width: 768px) {
+    .hero {
+        height: 60vh; /* Shorter hero for mobile */
+    }
+
+    .slide img {
+        height: 100%; /* Image fills the container */
+        object-fit: cover;
+    }
+
+    .slide h1 {
+        /* This combination centers it perfectly in the middle of the image */
+        top: 50% !important; 
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+        
+        /* Box and Text settings */
+        width: 85%; /* The background box will take up 85% of the width */
+        white-space: normal; /* Allows the long seminary name to wrap into lines */
+        text-align: center; /* Centers the text inside the black box */
+        
+        /* Visual tweaks */
+        font-size: 18px; 
+        line-height: 1.5;
+        padding: 15px;
+        background: rgba(0, 0, 0, 0.6); /* Slightly darker for better readability */
+    }
+}
+
+/* For very small screens */
+@media (max-width: 480px) {
+    .slide h1 {
+        font-size: 16px;
+        width: 90%;
+        padding: 12px;
+    }
 }
 
 .slide.active {
@@ -341,6 +389,41 @@ nav a:hover {
     top: 50%;
   }
 
+}
+
+/* MOBILE HERO TEXT */
+@media (max-width: 768px) {
+    .hero {
+        height: 60vh;
+    }
+
+    .slide img {
+        height: 100%; /* Image fills container on mobile */
+    }
+
+    .slide h1 {
+        /* Reset desktop positioning */
+        top: auto !important;
+        bottom: 0 !important; /* Pins it to the very bottom of the screen */
+        left: 0 !important;
+        transform: none !important;
+        
+        /* Box and Text logic */
+        width: 100% !important;
+        white-space: normal; /* Wraps long seminary name */
+        font-size: 18px;
+        padding: 15px;
+        line-height: 1.4;
+        background: rgba(0, 0, 0, 0.7); /* Stronger contrast for small screens */
+    }
+}
+
+/* For tiny screens (e.g., iPhone SE) */
+@media (max-width: 480px) {
+    .slide h1 {
+        font-size: 15px;
+        padding: 12px;
+    }
 }
 
 .stats {
@@ -877,13 +960,12 @@ footer {
 }
 
 .event-card h3 {
-    margin-top: 10px;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .event-card p {
-    margin-top: 8px;
     line-height: 1.6;
+    font-size: 10px;
     color: #333;
 }
 
