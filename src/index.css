@@ -1220,6 +1220,7 @@ footer {
   line-height:1.1;
   margin-bottom:12px;
   color:#333;
+  text-align: justify;
 }
 
 .about-btn{
@@ -1273,6 +1274,7 @@ footer {
   .about-text p {
     font-size: 16px;
     line-height: 1.5;
+    text-align: justify;
   }
 
   .about-sub {
@@ -1306,6 +1308,8 @@ footer {
 
   .about-text p, .about-sub {
     font-size: 15px;
+      line-height: 1.4;
+      text-align: justify;
   }
 
   .about-btn {
