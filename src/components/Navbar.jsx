@@ -76,9 +76,7 @@ const Navbar = () => {
           <a href="#" onClick={(e) => handleDropdownClick(e, 'academics')}>▼ACADEMIC PROGRAMS</a>
           <div className={`dropdown-content ${activeDropdown === 'academics' ? 'active' : ''}`}>
             <a href="/pages/academicprogramspages/philosophy.html">Philosophy</a>
-            {/* <a href="/pages/academicprogramspages/theology.html">Theology</a> */}
             <a href="/pages/academicprogramspages/affiliations.html">Affiliations</a>
-            {/* <a href="/pages/academicprogramspages/academic-regulations.html">Academic Regulations</a> */}
           </div>
         </div>
 
@@ -123,7 +121,7 @@ const Navbar = () => {
         <div className="dropdown">
           <a href="#" onClick={(e) => handleDropdownClick(e, 'lecturers')}>▼LECTURERS' PROFILES</a>
           <div className={`dropdown-content ${activeDropdown === 'lecturers' ? 'active' : ''}`}>
-            <a href="/pages/lecturersprofilepages/lecturers-in-theology.html">Lecturers in the Department of Theology</a>
+            {/* <a href="/pages/lecturersprofilepages/lecturers-in-theology.html">Lecturers in the Department of Theology</a> */}
             <a href="/pages/lecturersprofilepages/lecturers-in-philosophy.html">Lecturers in the Department of Philosophy</a>
           </div>
         </div>

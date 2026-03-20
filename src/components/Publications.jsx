@@ -86,6 +86,11 @@ const Publications = () => {
           style={{ width: `${((currentIndex + 1) / (publicationData.length - 2)) * 100}%` }}
         ></div>
       </div>
+      <div className="facilities-footer">
+        <a href="/pages/publications.html" className="see-more-btn">
+          See More
+        </a>
+      </div>
     </section>
   );
 };
