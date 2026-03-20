@@ -6,7 +6,7 @@ const Hero = () => {
         { img: "/images/pjpms_compound.jpg", text: "OUR SCHOOL COMPOUND" },
         { img: "/images/our_alumni.jpg", text: "OUR ALUMNI" },
         { img: "/images/seminarians.jpg", text: "FORMATION OF FUTURE PRIESTS" },
-        { img: "/images/chapel.jpg", text: "SCHOOL CHAPEL" }
+        { img: "/images/chapel.jpeg", text: "SCHOOL CHAPEL" }
     ];
 
     const [current, setCurrent] = useState(0);

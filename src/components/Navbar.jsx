@@ -49,13 +49,9 @@ const Navbar = () => {
         <div className="dropdown">
           <a href="#" onClick={(e) => handleDropdownClick(e, 'about')}>▼ABOUT US</a>
           <div className={`dropdown-content ${activeDropdown === 'about' ? 'active' : ''}`}>
-            <a href="/pages/aboutpages/aboutcurrentrector.html">About the Current Rector</a>
             <a href="/pages/aboutpages/school-history.html">School History</a>
             <a href="/pages/aboutpages/rectors.html">Rectors</a>
             <a href="/pages/aboutpages/staff.html">Staff</a>
-            <a href="/pages/aboutpages/house-formation-advisers.html">Houses Formation Advisers</a>
-            <a href="/pages/aboutpages/congregations.html">Congregations / Independent Missions</a>
-            <a href="/pages/aboutpages/cardinal-bishop-alumni.html">Cardinals, Bishops, Alumni of PJPMS</a>
             <a href="/pages/aboutpages/seminarians.html">Seminarians</a>
             <a href="/pages/contact.html">Contact Us</a>
           </div>
