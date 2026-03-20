@@ -4,14 +4,14 @@ const Facilities = () => {
   const facilityList = [
     {
       id: 1,
-      title: "Bigard Chapel",
-      image: "/images/chapel.jpg",
+      title: "School Chapel",
+      image: "/images/chapel.jpeg",
       link: "/pages/facilities/chapel.html"
     },
     {
       id: 2,
       title: "Academic Block",
-      image: "/images/pjpms_compound.jpg",
+      image: "/images/academic-block.jpg",
       link: "/pages/facilities/academic-block.html"
     },
     {

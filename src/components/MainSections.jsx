@@ -9,7 +9,7 @@ export const Welcome = () => (
             <div className="welcome-text">
                 <h2>Rector's Welcome</h2>
                 <p>
-                    <strong>"WELCOME TO OUR WEBSITE!</strong><br /><br />
+                    <strong>"WELCOME TO OUR WEBSITE!</strong><br />
                      This is the official website of Pope John Paul II Major Seminary, Okpuno, Awka, Nigeria. The seminary was established in 1997 as a philosophy campus of Bigard Memorial Seminary Enugu, Nigeria. In the year 2000, it came to be named after Pope John Paul II in gratitude for his visit to Nigeria to beatify our brother Blessed Michael Iwene Tansi. It remained still attached to Bigard in many ecclesiastical issues till 2012 when it gained full autonomy from Rome as an independent Seminary within Onitsha Ecclesiastical Province. It is situated in Okpuno, Awka South, Anambra State, Nigeria. Welcome and explore our website."
                 </p>
                 <div className="welcome-line"></div>

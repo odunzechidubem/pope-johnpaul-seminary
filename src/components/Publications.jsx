@@ -37,21 +37,24 @@ const Publications = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // Auto-slide effect
-  useEffect(() => {
-    const timer = setInterval(() => {
-      handleNext();
-    }, 4000); // Slides every 4 seconds
-    return () => clearInterval(timer);
-  }, [currentIndex]);
-
   const handleNext = () => {
-    setCurrentIndex((prev) => (prev + 1) % (publicationData.length - 2)); 
-    // "- 2" ensures we don't slide into empty space when showing 3 at a time
-  };
+  setCurrentIndex((prev) => (prev + 1) % (publicationData.length - 2));
+};
 
-  const handlePrev = () => {
-    setCurrentIndex((prev) => (prev - 1 + (publicationData.length - 2)) % (publicationData.length - 2));
-  };
+const handlePrev = () => {
+  setCurrentIndex((prev) => 
+    (prev - 1 + (publicationData.length - 2)) % (publicationData.length - 2)
+  );
+};
+
+// Auto-slide effect
+useEffect(() => {
+  const timer = setInterval(() => {
+    handleNext();
+  }, 4000);
+
+  return () => clearInterval(timer);
+}, [currentIndex]);
 
   return (
     <section className="publications-section">

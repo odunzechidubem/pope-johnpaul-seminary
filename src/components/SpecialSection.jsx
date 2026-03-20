@@ -5,7 +5,7 @@ const SpecialSection = () => {
     {
       id: "01",
       title: "Excellence in Spirituality",
-      image: "/images/entrance1.jpg", 
+      image: "/images/spirituality.jpg", 
     },
     {
       id: "02",

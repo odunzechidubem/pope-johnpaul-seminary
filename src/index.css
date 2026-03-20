@@ -657,14 +657,15 @@ footer {
 
 .welcome-text h2 {
     font-size: 32px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     color: #333;
 }
 
 .welcome-text p {
-    font-size: 18px;
-    line-height: 1.8;
+    font-size: 15px;
+    line-height: 2;
     color: #444;
+    text-align: justify;
 }
 
 .welcome-line {
@@ -718,6 +719,7 @@ footer {
         font-size: 17px;
         line-height: 1.7;
         color: #333;
+        text-align: justify;
     }
 
     .welcome-line {
@@ -735,6 +737,7 @@ footer {
     .welcome-text p {
         font-size: 15px;
         line-height: 1.6;
+        text-align: justify;
     }
 
     .welcome-text {
@@ -1121,7 +1124,7 @@ footer {
 .centenary-btn a {
     background: #3ba3c9;
     color: white;
-    padding: 14px 28px;
+    padding: 10px 28px;
     text-decoration: none;
     font-size: 16px;
     border-radius: 6px;
@@ -1223,7 +1226,7 @@ footer {
   display:inline-block;
   background:#1c8bb4;
   color:white;
-  padding:12px 22px;
+  padding:10px 22px;
   text-decoration:none;
   border-radius:5px;
   margin-top:10px;
@@ -1655,7 +1658,7 @@ footer {
 
 /* See More Button */
 .facilities-footer {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .see-more-btn {
@@ -1697,9 +1700,9 @@ footer {
 }
 
 .pub-title {
-  font-size: 48px;
+  font-size: 40px;
   color: #7a3c3c; /* Dark Maroon */
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-weight: bold;
 }
 
