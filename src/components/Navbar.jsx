@@ -92,7 +92,6 @@ const Navbar = () => {
                 <a href="/pages/admissionspages/process-of-recruitment.html">Process of Admission</a>
               </div>
             </div> */}
-            <a href="/pages/admissionspages/process-of-admission.html">Process of Admission</a>
           </div>
         </div>
 
