@@ -85,12 +85,13 @@ const Navbar = () => {
           <a href="#" onClick={(e) => handleDropdownClick(e, 'admissions')}>▼ADMISSIONS</a>
           <div className={`dropdown-content ${activeDropdown === 'admissions' ? 'active' : ''}`}>
             <a href="#">STAFF RECRUITMENT / ADMISSION BOARD</a>
-            <div className="submenu">
+            <a href="/pages/admissionspages/process-of-recruitment.html">PROCESS OF ADMISSION</a>
+            {/* <div className="submenu">
               <a href="#" onClick={(e) => handleSubmenuClick(e, 'staffRecruit')}>▼Staff Recruitment/Admission Board</a>
               <div className={`submenu-content ${activeSubmenu === 'staffRecruit' ? 'active' : ''}`}>
                 <a href="/pages/admissionspages/process-of-recruitment.html">Process of Admission</a>
               </div>
-            </div>
+            </div> */}
             <a href="/pages/admissionspages/process-of-admission.html">Process of Admission</a>
           </div>
         </div>
