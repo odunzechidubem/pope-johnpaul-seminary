@@ -5,38 +5,38 @@ const HistoryAndEvents = () => {
   const eventsData = [
     {
       id: 1,
-      title: "Centenary Stopover Okpala",
+      title: "Lorem ipsum dolor",
       subtitle: "PJPMS journey",
       image: "/images/road.jpg",
-      description: "On the 17th of November, 2023, Mother PJPMS journeyed with her seminarians, formators and Alumni to St. Paul's Seminary, Okpala, Imo State."
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minima magnam dolorum cumque maiores voluptate ullam asperiores, incidunt perspiciatis cum!"
     },
     {
       id: 2,
-      title: "Igbarim Event",
-      subtitle: "------------",
+      title: "Lorem ipsum dolor",
+      subtitle: "PJPMS journey",
       image: "/images/popestature.jpg",
-      description: "In continuation of the PJPMS Centenary activities, the PJPMS Family, on Thursday the 25th day of January, 2024, journied to Igbarim where PJPMS originally took off as St. Paul's Seminary in 1924."
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minima magnam dolorum cumque maiores voluptate ullam asperiores, incidunt perspiciatis cum!"
     },
     {
       id: 3,
-      title: "Afaha Obong Event",
-      subtitle: "------------",
-      image: "/images/our_alumni.jpg",
-      description: "PJPMS Seminary family visited Queen of Apostles Seminary, Afaha Obong on Friday, 26th April 2024 as part of the Centenary Celebration. The seminary sojourned here during the outbreak of the Nigerian Civil War."
+      title: "Lorem ipsum dolor",
+      subtitle: "PJPMS journey",
+      image: "/images/students.jpg",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minima magnam dolorum cumque maiores voluptate ullam asperiores, incidunt perspiciatis cum!"
     },
     {
       id: 4,
-      title: "Afaha Obong Event",
-      subtitle: "------------",
-      image: "/images/Rector.jpeg",
-      description: "PJPMS Seminary family visited Queen of Apostles Seminary, Afaha Obong on Friday, 26th April 2024 as part of the Centenary Celebration. The seminary sojourned here during the outbreak of the Nigerian Civil War."
+      title: "Lorem ipsum dolor",
+      subtitle: "PJPMS journey",
+      image: "/images/seminarians.jpg",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minima magnam dolorum cumque maiores voluptate ullam asperiores, incidunt perspiciatis cum!"
     },
     {
       id: 5,
-      title: "Afaha Obong Event",
-      subtitle: "------------",
+      title: "Lorem ipsum dolor",
+      subtitle: "PJPMS journey",
       image: "/images/groto.jpg",
-      description: "PJPMS Seminary family visited Queen of Apostles Seminary, Afaha Obong on Friday, 26th April 2024 as part of the Centenary Celebration. The seminary sojourned here during the outbreak of the Nigerian Civil War."
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minima magnam dolorum cumque maiores voluptate ullam asperiores, incidunt perspiciatis cum!"
     }
   ];
 
