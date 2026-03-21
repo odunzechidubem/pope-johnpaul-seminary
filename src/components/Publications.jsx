@@ -18,7 +18,9 @@ const Publications = () => {
       id: 3,
       title: "PJPMS Philosophical Journal",
       image: "/images/popestature.jpg",
-      link: "https://www.acjol.com/journal/pjpjoph"
+      link: "https://www.acjol.com/journal/pjpjoph",
+      target: "_blank",
+      rel: "noopener noreferrer"
     }
     // ,
     // {
@@ -64,7 +66,8 @@ useEffect(() => {
             style={{ transform: `translateX(-${currentIndex * 33.33}%)` }}
           >
             {publicationData.map((pub) => (
-              <a href={pub.link} className="pub-card" key={pub.id}>
+              <a href={pub.link} className="pub-card" key={pub.id} target={pub.target || "_self"}
+              rel={pub.rel || ""}>
                 <div className="pub-image-box">
                   <img src={pub.image} alt={pub.title} />
                 </div>
