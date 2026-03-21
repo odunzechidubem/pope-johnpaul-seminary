@@ -22,7 +22,7 @@ const Formators = () => {
             name: "Rev. Fr. Dr. Felix Akamonye",
             role: "Formator",
             email: "monye29@gmail.com",
-            image: "/images/formator-icon.png"
+            image: "/images/fr_akamonye.jpeg"
         },
         {
             id: 4,
@@ -50,7 +50,7 @@ const Formators = () => {
             name: "Rev. Fr. Dr. Lawrence Ezeazodosiaku",
             role: "Spiritual Director",
             email: "frdiliyahweh@yahoo.com",
-            image: "/images/formator-icon.png"
+            image: "/images/fr_ezeazodosiaku.jpeg"
         },
         {
             id: 9,
@@ -64,7 +64,7 @@ const Formators = () => {
             name: "Rev. Fr. Felix Odibe",
             role: "Formator",
             email: "iodibefelix@yahoo.com",
-            image: "/images/formator-icon.png"
+            image: "/images/fr_odibe.jpeg"
         },
         {
             id: 11,
