@@ -16,9 +16,9 @@ const Publications = () => {
     },
     {
       id: 3,
-      title: "PJPMS Theological Journal",
+      title: "PJPMS Philosophical Journal",
       image: "/images/popestature.jpg",
-      link: "/pages/resourcespages/publications.html"
+      link: "https://www.acjol.com/journal/pjpjoph"
     }
     // ,
     // {
