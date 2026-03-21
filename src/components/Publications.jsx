@@ -5,7 +5,7 @@ const Publications = () => {
     {
       id: 1,
        title: "PJPMS Philosophical Journal",
-      image: "/images/popestature.jpg",
+      image: "/images/pjpjoph.jpg",
       link: "https://www.acjol.com/journal/pjpjoph",
       target: "_blank",
       rel: "noopener noreferrer"
@@ -22,13 +22,6 @@ const Publications = () => {
       image: "/images/popestature.jpg",
       link: "/pages/resourcespages/publications.html"
     }
-    // ,
-    // {
-    //     id: 4,
-    //     title: "Formation Handbook",
-    //     image: "/images/popestature.jpg",
-    //     link: "/pages/resourcespages/publications.html"
-    // }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
