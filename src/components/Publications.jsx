@@ -4,23 +4,23 @@ const Publications = () => {
   const publicationData = [
     {
       id: 1,
+       title: "PJPMS Philosophical Journal",
+      image: "/images/popestature.jpg",
+      link: "https://www.acjol.com/journal/pjpjoph",
+      target: "_blank",
+      rel: "noopener noreferrer"
+    },
+    {
+      id: 2,
       title: "WAJOBS",
       image: "/images/popestature.jpg", 
       link: "/pages/resourcespages/publications.html"
     },
     {
-      id: 2,
+      id: 3,
       title: "Latest Publications",
       image: "/images/popestature.jpg",
       link: "/pages/resourcespages/publications.html"
-    },
-    {
-      id: 3,
-      title: "PJPMS Philosophical Journal",
-      image: "/images/popestature.jpg",
-      link: "https://www.acjol.com/journal/pjpjoph",
-      target: "_blank",
-      rel: "noopener noreferrer"
     }
     // ,
     // {
