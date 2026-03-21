@@ -10,7 +10,7 @@ const SpecialSection = () => {
     {
       id: "02",
       title: "Academic Rigor",
-      image: "/images/pjps_compound.jpg",
+      image: "/images/academic_rigor.jpeg",
     },
     {
       id: "03",

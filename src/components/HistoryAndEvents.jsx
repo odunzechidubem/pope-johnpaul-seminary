@@ -5,38 +5,31 @@ const HistoryAndEvents = () => {
   const eventsData = [
     {
       id: 1,
-      title: "Lorem ipsum dolor",
-      subtitle: "PJPS journey",
-      image: "/images/road.jpg",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minima magnam dolorum cumque maiores voluptate ullam asperiores, incidunt perspiciatis cum!"
+      title: "The Inauguration of the 2025/2026 Academic and Formation Year — 27th October 2025",
+      subtitle: "The Inauguration of the 2025/2026 Academic and Formation Year — 27th October 2025",
+      image: "/images/inauguration.jpeg",
+      description: "The inauguration of the 2025/2026 Academic and Formation Year began with the Patronal Feast, during which the academic year was declared open by Very Rev. Fr. Prof. Josephat Oguejiofor. Awards were presented to outstanding seminarians in recognition of their growth in the four areas of human formation. This underscores the seminary’s commitment to both academic and moral excellence."
     },
     {
       id: 2,
-      title: "Lorem ipsum dolor",
-      subtitle: "PJPS journey",
-      image: "/images/popestature.jpg",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minima magnam dolorum cumque maiores voluptate ullam asperiores, incidunt perspiciatis cum!"
+      title: "The visit of the CWO, Awka Diocese — 14th November 2025",
+      subtitle: "The visit of the CWO, Awka Diocese — 14th November 2025",
+      image: "/images/visit_of_cwo.jpeg",
+      description: "The representatives of the CWO were warmly welcomed to the seminary. They encouraged the seminarians to remain steadfast in their vocational journey. They also presented multiple food items to support the seminary community."
     },
     {
       id: 3,
-      title: "Lorem ipsum dolor",
-      subtitle: "PJPS journey",
-      image: "/images/students.jpg",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minima magnam dolorum cumque maiores voluptate ullam asperiores, incidunt perspiciatis cum!"
+      title: "Cultural Weekend — November 5–6, 2025",
+      subtitle: "Cultural Weekend — November 5–6, 2025",
+      image: "/images/cultural_weekend.jpeg",
+      description: "The event opened with a vibrant cultural parade, followed by activities such as proverbs recitation, Igbo speaking, wrestling, and ìlụ competitions. The theme of the celebration centered on “A Critical Appraisal of Ndukaku.”"
     },
     {
       id: 4,
-      title: "Lorem ipsum dolor",
-      subtitle: "PJPS journey",
-      image: "/images/seminarians.jpg",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minima magnam dolorum cumque maiores voluptate ullam asperiores, incidunt perspiciatis cum!"
-    },
-    {
-      id: 5,
-      title: "Lorem ipsum dolor",
-      subtitle: "PJPS journey",
-      image: "/images/groto.jpg",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minima magnam dolorum cumque maiores voluptate ullam asperiores, incidunt perspiciatis cum!"
+      title: "Patronal Feast Celebration — 26th October 2025",
+      subtitle: "Patronal Feast Celebration — 26th October 2025",
+      image: "/images/patronal_feast_celebration.jpeg",
+      description: "The event began with a Holy Mass presided over by Rev. Fr. Prof. Josephat Oguejiofor. The seminary received special support for her ongoing projects."
     }
   ];
 
