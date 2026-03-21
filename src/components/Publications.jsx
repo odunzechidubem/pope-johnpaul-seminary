@@ -4,34 +4,29 @@ const Publications = () => {
   const publicationData = [
     {
       id: 1,
-      title: "PJPMS Centenary Publication",
-      image: "/images/popestature.jpg", // Replace with your book cover image
+      title: "WAJOBS",
+      image: "/images/popestature.jpg", 
       link: "/pages/resourcespages/publications.html"
     },
     {
       id: 2,
-      title: "PJPMS Centenary Publication",
+      title: "Latest Publications",
       image: "/images/popestature.jpg",
       link: "/pages/resourcespages/publications.html"
     },
     {
       id: 3,
-      title: "PJPMS Centenary Publication",
-      image: "/images/popestature.jpg",
-      link: "/pages/resourcespages/publications.html"
-    },
-    {
-      id: 4,
       title: "PJPMS Theological Journal",
       image: "/images/popestature.jpg",
       link: "/pages/resourcespages/publications.html"
-    },
-    {
-        id: 5,
-        title: "Formation Handbook",
-        image: "/images/popestature.jpg",
-        link: "/pages/resourcespages/publications.html"
     }
+    // ,
+    // {
+    //     id: 4,
+    //     title: "Formation Handbook",
+    //     image: "/images/popestature.jpg",
+    //     link: "/pages/resourcespages/publications.html"
+    // }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -82,7 +77,7 @@ useEffect(() => {
         <button className="pub-nav-btn next" onClick={handleNext}>❯</button>
       </div>
 
-      {/* Progress Bar shown in your screenshot */}
+      {/* Progress Bar  */}
       <div className="pub-progress-bar">
         <div 
           className="pub-progress-fill" 

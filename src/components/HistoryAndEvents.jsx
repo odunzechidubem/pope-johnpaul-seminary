@@ -86,7 +86,6 @@ const HistoryAndEvents = () => {
           <div className="about-text">
             <h2>A BRIEF HISTORY OF</h2>
             <h3>POPE JOHN PAUL II MAJOR SEMINARY</h3>
-            <p className="about-sub">Early Years at Onitsha:</p>
             <p>
               Pope John Paul II Major Seminary, Okpuno (Awka South L.G. A) was opened on November 20, 1997 as a campus of
               Bigard Memorial Seminary, Enugu. The seminary was established to cater for the philosophical formation of

@@ -17,7 +17,7 @@ function App() {
       <Welcome />
       
       {/* Centenary Gallery Section */}
-      <section className="centenary">
+      {/* <section className="centenary">
         <h1 className="centenary-title">CELEBRATIONS</h1>
         <h3 className="centenary-sub">Photo Gallery</h3>
         <div className="centenary-gallery">
@@ -30,7 +30,7 @@ function App() {
         <div className="centenary-btn">
           <a href="#">More Photos</a>
         </div>
-      </section>
+      </section> */}
 
       <News />
       <HistoryAndEvents />

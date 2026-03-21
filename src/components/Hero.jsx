@@ -4,7 +4,7 @@ const Hero = () => {
     const slides = [
         { img: "/images/entrance1.jpg", text: "WELCOME TO POPE JOHN PAUL II MAJOR SEMINARY OKPUNO, AWKA" },
         { img: "/images/pjpms_compound.jpg", text: "OUR SCHOOL COMPOUND" },
-        { img: "/images/our_alumni.jpg", text: "OUR ALUMNI" },
+        { img: "/images/students.jpg", text: "OUR NEW STUDENTS" },
         { img: "/images/seminarians.jpg", text: "FORMATION OF FUTURE PRIESTS" },
         { img: "/images/chapel.jpeg", text: "SCHOOL CHAPEL" }
     ];

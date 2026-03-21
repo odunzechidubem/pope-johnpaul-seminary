@@ -86,23 +86,23 @@ const Navbar = () => {
           <div className={`dropdown-content ${activeDropdown === 'admissions' ? 'active' : ''}`}>
             <a href="#">STAFF RECRUITMENT / ADMISSION BOARD</a>
             <div className="submenu">
-              <a href="#" onClick={(e) => handleSubmenuClick(e, 'staffRecruit')}>▼Staff Recruitment</a>
+              <a href="#" onClick={(e) => handleSubmenuClick(e, 'staffRecruit')}>▼Staff Recruitment/Admission Board</a>
               <div className={`submenu-content ${activeSubmenu === 'staffRecruit' ? 'active' : ''}`}>
-                <a href="/pages/admissionspages/staff-recruitment-board.html">Staff Recruitment Board</a>
-                <a href="/pages/admissionspages/process-of-recruitment.html">Process of Recruitment</a>
+                <a href="/pages/admissionspages/process-of-recruitment.html">Process of Admission</a>
               </div>
             </div>
             <a href="/pages/admissionspages/process-of-admission.html">Process of Admission</a>
           </div>
         </div>
 
-        {/* RESOURCES */}
+        {/* LIBRARY */}
         <div className="dropdown">
-          <a href="#" onClick={(e) => handleDropdownClick(e, 'resources')}>▼RESOURCES</a>
+          <a href="#" onClick={(e) => handleDropdownClick(e, 'resources')}>▼LIBRARY</a>
           <div className={`dropdown-content ${activeDropdown === 'resources' ? 'active' : ''}`}>
-            <a href="/pages/resourcespages/publications.html">Publications</a>
-            <a href="/pages/resourcespages/academic-calendar.html">Academic Calendar</a>
-            <div className="submenu">
+            <a href="/pages/resourcespages/publications.html">Online Catalogue</a>
+            <a href="/pages/resourcespages/academic-calendar.html">Repository</a>
+            <a href="/pages/resourcespages/academic-calendar.html">Vademecum</a>
+            {/* <div className="submenu">
               <a href="#" onClick={(e) => handleSubmenuClick(e, 'library')}>▼Library Resources</a>
               <div className={`submenu-content ${activeSubmenu === 'library' ? 'active' : ''}`}>
                 <a href="/pages/resourcespages/online-catalogue.html">Online Catalogue</a>
@@ -110,10 +110,10 @@ const Navbar = () => {
                 <a href="/pages/resourcespages/repository.html">Repository</a>
                 <a href="/pages/resourcespages/secure-resources.html">Secure Resources</a>
               </div>
-            </div>
-            <a href="/pages/resourcespages/student-handbook.html">Student Handbook</a>
+            </div> */}
+            {/* <a href="/pages/resourcespages/student-handbook.html">Student Handbook</a>
             <a href="/pages/resourcespages/code-of-conduct.html">Code of Conduct</a>
-            <a href="/pages/resourcespages/alumni-network.html">Alumni Network</a>
+            <a href="/pages/resourcespages/alumni-network.html">Alumni Network</a> */}
           </div>
         </div>
 
@@ -121,8 +121,9 @@ const Navbar = () => {
         <div className="dropdown">
           <a href="#" onClick={(e) => handleDropdownClick(e, 'lecturers')}>▼LECTURERS' PROFILES</a>
           <div className={`dropdown-content ${activeDropdown === 'lecturers' ? 'active' : ''}`}>
+           <a href="/pages/lecturersprofilepages/lecturers-in-philosophy.html">Lecturers' Profiles</a>
             {/* <a href="/pages/lecturersprofilepages/lecturers-in-theology.html">Lecturers in the Department of Theology</a> */}
-            <a href="/pages/lecturersprofilepages/lecturers-in-philosophy.html">Lecturers in the Department of Philosophy</a>
+            {/* <a href="/pages/lecturersprofilepages/lecturers-in-philosophy.html">Lecturers in the Department of Philosophy</a> */}
           </div>
         </div>
 

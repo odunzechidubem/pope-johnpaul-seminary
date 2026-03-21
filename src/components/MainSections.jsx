@@ -44,9 +44,9 @@ export const News = () => (
 
 export const Stats = () => (
     <section className="stats">
-        <div><h3>2000+</h3><p>Alumni</p></div>
-        <div><h3>200+</h3><p>Students</p></div>
-        <div><h3>50+</h3><p>Staff</p></div>
-        <div><h3>100 Years</h3><p>Experience</p></div>
+        {/* <div><h3>2000+</h3><p>Alumni</p></div> */}
+        <div><h3>285</h3><p>Students</p></div>
+        <div><h3>31</h3><p>Staff</p></div>
+        <div><h3>29 Years</h3><p>Experience</p></div>
     </section>
 );
