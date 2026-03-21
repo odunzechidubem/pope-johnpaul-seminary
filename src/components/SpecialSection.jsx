@@ -20,7 +20,7 @@ const SpecialSection = () => {
     {
         id: "04",
         title: "Missionary Outreach",
-        image: "/images/our_alumni.jpg",
+        image: "/images/students.jpg",
       }
   ];
 
