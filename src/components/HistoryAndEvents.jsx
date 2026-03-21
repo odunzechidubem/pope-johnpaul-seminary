@@ -6,35 +6,35 @@ const HistoryAndEvents = () => {
     {
       id: 1,
       title: "Lorem ipsum dolor",
-      subtitle: "PJPMS journey",
+      subtitle: "PJPS journey",
       image: "/images/road.jpg",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minima magnam dolorum cumque maiores voluptate ullam asperiores, incidunt perspiciatis cum!"
     },
     {
       id: 2,
       title: "Lorem ipsum dolor",
-      subtitle: "PJPMS journey",
+      subtitle: "PJPS journey",
       image: "/images/popestature.jpg",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minima magnam dolorum cumque maiores voluptate ullam asperiores, incidunt perspiciatis cum!"
     },
     {
       id: 3,
       title: "Lorem ipsum dolor",
-      subtitle: "PJPMS journey",
+      subtitle: "PJPS journey",
       image: "/images/students.jpg",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minima magnam dolorum cumque maiores voluptate ullam asperiores, incidunt perspiciatis cum!"
     },
     {
       id: 4,
       title: "Lorem ipsum dolor",
-      subtitle: "PJPMS journey",
+      subtitle: "PJPS journey",
       image: "/images/seminarians.jpg",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minima magnam dolorum cumque maiores voluptate ullam asperiores, incidunt perspiciatis cum!"
     },
     {
       id: 5,
       title: "Lorem ipsum dolor",
-      subtitle: "PJPMS journey",
+      subtitle: "PJPS journey",
       image: "/images/groto.jpg",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minima magnam dolorum cumque maiores voluptate ullam asperiores, incidunt perspiciatis cum!"
     }

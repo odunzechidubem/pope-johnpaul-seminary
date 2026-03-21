@@ -32,7 +32,7 @@ const Navbar = () => {
     <header>
       <a href="/" className="logo">
         <div className="logo-area">
-          <img src="/images/header_logo.png" alt="PJPMS Memorial Seminary Logo" />
+          <img src="/images/header_logo.png" alt="PJPS Memorial Seminary Logo" />
           <span className="site-name">POPE JOHN PAUL II MAJOR SEMINARY</span>
         </div>
       </a>
@@ -67,7 +67,6 @@ const Navbar = () => {
             <a href="/pages/councilspages/financial-council.html">Financial Council</a>
             <a href="/pages/councilspages/library-council.html">Library Council</a>
             <a href="/pages/councilspages/spiritual-council.html">Spiritual Council</a>
-            <a href="/pages/councilspages/student-council.html">Students’ Councils</a>
           </div>
         </div>
 

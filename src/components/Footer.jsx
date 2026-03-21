@@ -30,7 +30,7 @@ const Footer = () => {
         <div className="footer-grid">
           {/* Left: Logo + description */}
           <div className="footer-left">
-            <img src="/images/header_logo.png" alt="PJPMS Logo" className="footer-logo" />
+            <img src="/images/header_logo.png" alt="PJPS Logo" className="footer-logo" />
             <h3>Pope John Paul II Major Seminary</h3>
           </div>
 

@@ -27,7 +27,7 @@ export const News = () => (
                 {[1, 2, 3].map((item) => (
                     <div className="news-card" key={item}>
                         <div className="news-text">
-                            <h4>PJPMS INAUGURATES THE...</h4>
+                            <h4>PJPS INAUGURATES THE...</h4>
                             <p className="news-date">October 21, 2025</p>
                         </div>
                         <div className="news-image">

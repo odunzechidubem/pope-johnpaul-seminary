@@ -952,7 +952,7 @@ footer {
 /* Large Event */
 .event-large img {
     width: 100%;
-    height: 380px;
+    height: 420px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -1008,7 +1008,7 @@ footer {
     }
 
     .event-large img {
-        height: 250px;
+        height: 300px;
     }
 
     .event-card img {
@@ -1044,7 +1044,7 @@ footer {
     }
 
     .event-large img {
-        height: 200px;
+        height: 300px;
     }
 
     .event-card img {
@@ -1620,28 +1620,51 @@ footer {
 }
 
 /* Sports Collage Specific Styles */
+/* 4-Image Collage */
 .sports-collage {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
     height: 100%;
     position: relative;
 }
 
 .sports-collage img {
     width: 100%;
-    height: 100%;
+    height: 125px;
+    object-fit: cover;
+    border: 1px solid #7da48f;
+}
+
+/* 3-Image Collage */
+.sports-collage {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* big left, small right */
+    grid-template-rows: 1fr 1fr;
+    height: 120px; /* control total height */
+    gap: 1px;
+    position: relative;
+}
+
+/* First image (big one) */
+.sports-collage img:nth-child(1) {
+    grid-row: span 2; /* takes full height */
+}
+
+.sports-collage img {
+    width: 100%;
+    height: 120%;
     object-fit: cover;
     border: 1px solid #7da48f;
 }
 
 .sports-overlay-text {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -20%; /* Move it up to sit above the images */
+    right: 171px;
     bottom: 0;
     left: 0;
-    background: rgba(255, 255, 255, 0.1); /* Slight tint */
+    background: rgba(255, 255, 255, 0.02); /* Slight tint */
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -1655,7 +1678,7 @@ footer {
     font-style: italic;
     font-size: 14px;
     text-align: left;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.4);
     padding: 10px 20px;
     border-radius: 5px;
 }
@@ -1713,12 +1736,15 @@ footer {
 .pub-slider-container {
   display: flex;
   align-items: center;
+  justify-content: center;
   position: relative;
+  width: 100%;
 }
 
 .pub-slider-view {
-  width: 100%;
-  overflow: hidden; /* Hides the books outside the view */
+  width: 90%; /* Leaves space for buttons on the sides */
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 .pub-track {
@@ -1762,15 +1788,24 @@ footer {
 
 /* Navigation Buttons */
 .pub-nav-btn {
-  background: rgba(122, 60, 60, 0.1);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100; /* Ensures buttons stay on top of images */
+  background: rgba(0, 0, 0, 0.1);
   border: none;
-  font-size: 30px;
-  color: #7a3c3c;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-  padding: 20px 10px;
-  z-index: 10;
-  transition: background 0.3s;
+  pointer-events: auto; /* Force clickability */
 }
+
+.pub-nav-btn.prev { left: 5px; }
+.pub-nav-btn.next { right: 5px; }
 
 .pub-nav-btn:hover {
   background: rgba(122, 60, 60, 0.2);
@@ -1794,20 +1829,62 @@ footer {
 
 /* Mobile Responsiveness */
 @media (max-width: 900px) {
-  .pub-card {
-    min-width: 50%; /* 2 books on tablet */
+  .publications-section {
+    padding: 60px 5%; /* Less padding on sides */
   }
+
+  .pub-card {
+    min-width: 50%; /* Shows 2 books */
+  }
+
   .pub-title {
     font-size: 32px;
   }
-}
 
-@media (max-width: 600px) {
-  .pub-card {
-    min-width: 100%; /* 1 book on phone */
-  }
   .pub-image-box img {
-    height: 300px;
+    height: 320px; /* Slightly shorter for tablets */
   }
 }
 
+/* Mobile Screens (600px and below) */
+@media (max-width: 600px) {
+  .publications-section {
+    padding: 40px 2%; /* Very thin padding on phones */
+  }
+
+  .pub-title {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+
+  .pub-slider-view {
+    width: 80%; /* Shrink the view slightly to make nav buttons more accessible */
+  }
+
+  .pub-card {
+    min-width: 100%; /* Shows 1 book at a time */
+    padding: 0 10px; /* Tighter padding for the card */
+  }
+
+  .pub-image-box {
+    padding: 5px; /* Thinner border around the book cover */
+  }
+
+  .pub-image-box img {
+    /* Resize image for mobile */
+    height: 250px; /* Reduced from 300px for a better vertical fit */
+    object-fit: contain; /* 'contain' ensures the whole book cover is visible without cropping */
+    background: #eee; /* Light gray background if the book is thin */
+  }
+
+  .pub-name {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  .pub-nav-btn {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+  }
+}

@@ -4,42 +4,41 @@ const Facilities = () => {
   const facilityList = [
     {
       id: 1,
-      title: "School Chapel",
+      title: "Seminary Chapel",
       image: "/images/chapel.jpeg",
       link: "/pages/facilities/chapel.html"
     },
     {
       id: 2,
       title: "Academic Block",
-      image: "/images/academic-block.jpg",
+      image: "/images/academic_block.jpeg",
       link: "/pages/facilities/academic-block.html"
     },
     {
       id: 3,
-      title: "Bigard Auditorium",
+      title: "Seminary Entrance",
       image: "/images/entrance1.jpg", 
-      link: "/pages/facilities/auditorium.html"
+      link: "/pages/facilities/entrance.html"
     },
     {
       id: 4,
-      title: "St. James' Library",
-      image: "/images/header_logo.png", // Replace with library image
-      link: "/pages/facilities/library.html"
+      title: "PJPS Nursery and Primary School",
+      image: "/images/pjps_nursery_primary_school.jpg", 
+      link: "/pages/facilities/nursery-primary.html"
     },
     {
       id: 5,
-      title: "St Luke's Clinic",
-      image: "/images/header_logo.png", // Replace with clinic image
-      link: "/pages/facilities/clinic.html"
+      title: "Seminary Hostel",
+      image: "/images/seminary_hostel.jpg", 
+      link: "/pages/facilities/hostel.html"
     },
     {
       id: 6,
       title: "School Sports Facilities",
       isCollage: true, // Special flag for the sports collage
       images: [
-        "/images/header_logo.png",
-        "/images/header_logo.png",
-        "/images/header_logo.png",
+        "/images/football_field.jpg",
+        "/images/lawn_tennis_court.jpg",
         "/images/header_logo.png"
       ],
       link: "/pages/facilities/sports.html"
@@ -59,13 +58,13 @@ const Facilities = () => {
                   {item.images.map((img, index) => (
                     <img key={index} src={img} alt="sport" />
                   ))}
-                  <div className="sports-overlay-text">
+                  {/* <div className="sports-overlay-text">
                     <ul>
                       <li>Football Field</li>
                       <li>Lawn Tennis Court</li>
                       <li>BasketBall Court</li>
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
               ) : (
                 <img src={item.image} alt={item.title} className="facility-img" />

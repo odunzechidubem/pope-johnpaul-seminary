@@ -29,7 +29,7 @@ const Formators = () => {
             name: "Rev. Fr. Dominic Anyalagbuna, Dominic",
             role: "Formator",
             email: "adebse@gmail.com",
-            image: "/images/formator-icon.png"
+            image: "/images/fr_dominic.jpeg"
         },
         {
             id: 5,
@@ -57,7 +57,7 @@ const Formators = () => {
             name: "Rev. Fr. Dr. Linus Nnabuenyi",
             role: "Spiritual Director",
             email: "christolinus@yahoo.com",
-            image: "/images/formator-icon.png"
+            image: "/images/fr_linus_nnabuenyi.jpeg"
         },
         {
             id: 10,
@@ -71,7 +71,7 @@ const Formators = () => {
             name: "Rev. Fr. Dr. Paschal-Paul Okeke",
             role: "Spiritual Director",
             email: "paschalpaul94@yahoo.co.uk",
-            image: "/images/formator-icon.png"
+            image: "/images/fr_paschal-paul.jpeg"
         },
         {
             id: 12,
@@ -85,14 +85,14 @@ const Formators = () => {
             name: "Rev. Fr. Emmanuel Oko",
             role: "Formator",
             email: "fadamonk@yahoo.com",
-            image: "/images/formator-icon.png"
+            image: "/images/fr_okoh.jpeg"
         },
         {
             id: 14,
             name: "Rev. Fr. Stephen Ugwuja",
             role: "Spiritual Director",
             email: "stephenugwuja2013@gmail.com",
-            image: "/images/formator-icon.png"
+            image: "/images/fr_stephen.jpeg"
         }
     ];
 

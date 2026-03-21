@@ -10,16 +10,16 @@ const SpecialSection = () => {
     {
       id: "02",
       title: "Academic Rigor",
-      image: "/images/pjpms_compound.jpg",
+      image: "/images/pjps_compound.jpg",
     },
     {
       id: "03",
-      title: "Community Living",
+      title: "Culture and Community",
       image: "/images/seminarians.jpg",
     },
     {
         id: "04",
-        title: "Missionary Outreach",
+        title: "Sports and Recreation",
         image: "/images/students.jpg",
       }
   ];
@@ -27,7 +27,7 @@ const SpecialSection = () => {
   return (
     <section className="special-section">
       <div className="special-header">
-        <h1>What Makes PJPMS Special?</h1>
+        <h1>What Makes PJPS Special?</h1>
         <p>What makes the difference.</p>
       </div>
 
